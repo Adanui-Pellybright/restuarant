@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: bisque;
+}
+.nav-item{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+.nav-item li{
+    margin: 0 20px;
+}
+.nav-item li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.nav-item li a:hover{
+    color: blue;
+}
+/* hero section */
+#hero{
+    background-image:url(salad.jpeg);
+    background-size: cover;
+    height: 100vh;
+}
+.hero-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.hero-item h1{
+    font-size: 3rem;
+    color: bisque;
+    margin-bottom: 20px;
+}
+.hero-item p{
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 30px;
+}
+.btn{
+    padding: 10px 30px;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.about{
+    padding: 50px;
+}
+.about-context{
+    display: flex;
+}
+.about-img img{
+    width: 100%;
+    height: 100vh;
+}
+.about-text{
+    padding: 0 50px;
+}
+.about-text h2{
+    background-color: bisque;
+    margin-bottom: 20px;
+}
+.about-text p{
+    margin-bottom: 10px;
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+a{
+    text-decoration: none;
+}
+.btn2{
+    padding: 10px 30px;
+    background-color: bisque;
+    color: black;
+    border-radius: 15px;
+}
+/* listings */
+.listing-title{
+    text-align: center;
+    margin: 50px 0;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+    width:300px ;
+    background: floralwhite;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.btn3{
+    padding: 10px 0px;
+    background-color: bisque;
+    color: black;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+.about{
+    padding: 40px;
+    text-align: center;
+}
+.about h1{
+    font-size: 36px;
+    margin-top: 20px;
+color: bisque;
+}
+.our-story, .meet-the-chef, .awards{
+    margin-top: 40px;
+}
+.meet-the-chef img{
+
+
+    border-radius: 100px;
+    margin: 20px;
+}
+.hero{
+    background-image:url(download\ \(8\).jpeg) ;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blanchedalmond;
+}
+.featured-dishes{
+    padding: 40px;
+    text-align: center;
+}
+.featured-dishes .dish {
+    margin: 20px;
+    display: inline-block;
+}
+.featured-dishes img{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+.about-us {
+    padding: 40px;
+    text-align: center;
+
+}
+.call-to-action{
+    background-color: bisque;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+button {
+    background-color: bisque;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+.contact-form input,.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact-form input [type="submit"]{
+    width: auto;
+}
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.social-media a {
+    text-decoration: none;
+    color: #337ab7;
+}
+.menu {
+    padding: 40px;
+}
+.menu-section {
+    margin-bottom: 40px;
+}
+.menu-section ul {
+    list-style: none;
+    padding: 0;
+}
+.menu-section li {
+    margin-bottom: 20px;
+}
+.menu-section h2 {
+    margin-top: 0;
+}
+.footer{
+    background-color:bisque;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    clear: both;
+
+}
+.footer-content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.footer-link{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-link li{
+    display: inline-block;
+    margin-right: 20px;
+}
+@media (max-width:30px){
+
+}
